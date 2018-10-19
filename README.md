@@ -1,2 +1,2 @@
 # VanguardFire.github.io
-It's a website
+<embed src="https://sumanbogati.github.io/sample.pdf" type="application/pdf" />
