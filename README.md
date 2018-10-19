@@ -1,5 +1,5 @@
 # VanguardFire.github.io
-<iframe src="https://docs.google.com/viewer?url=https://github.com/VanguardFire/VanguardFire.github.io/blob/master/EDD.pdf&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe>
+<iframe src="https://docs.google.com/viewer?url=https://files.acrobat.com/a/preview/7d24cd63-bd81-4acc-862f-e3707ee56ba2&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe>
 
 
 
