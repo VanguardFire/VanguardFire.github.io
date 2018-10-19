@@ -6,4 +6,4 @@
 <iframe src="https://www.keepandshare.com/doc14/22291/edd-pdf-3-0-meg?da=y&ifr=y" width="900" height="700" scrolling="yes" frameborder="1"></iframe>
 
 
-<iframe src="https://drive.google.com/file/d/1sfcySJy-xMOfi0HMPtiuVH9IVIGGymQU/view" frameborder="0"></iframe>
+<iframe src="https://drive.google.com/file/d/1sfcySJy-xMOfi0HMPtiuVH9IVIGGymQU/preview" width="640" height="480"></iframe>
