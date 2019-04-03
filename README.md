@@ -11,6 +11,8 @@
 #Our Code and Some Results:
 
 
+
+
 from picamera.array import PiRGBArray
 from picamera import PiCamera
 import argparse
@@ -20,21 +22,12 @@ import cv2
 import json
 import imutils
 
-
 conf = json.load(open("/home/pi/Desktop/conf.json"))
-
-
-
-
 
 camera = PiCamera()
 camera.resolution = tuple(conf["resolution"])
 camera.framerate = conf["fps"]
 rawCapture = PiRGBArray(camera, size=tuple(conf["resolution"]))
-
-
-
-
 
 print("[INFO] warming up...")
 time.sleep(conf["camera_warmup_time"])
@@ -42,29 +35,20 @@ avg = None
 lastUploaded = datetime.datetime.now()
 motionCounter = 0
 
-
-
-
-
 #capture frames from the camera
+
 count = 0
 
 for f in camera.capture_continuous(rawCapture, format="bgr", use_video_port=True):
     # grab the raw NumPy array representing the image and initialize
     # the timestamp and occupied/unoccupied text
-    
-    
-    
     frame = f.array
     timestamp = datetime.datetime.now()
     text = "You're good"
     
     
- 
     # resize the frame, convert it to grayscale, and blur it
-    frame = imutils.resize(frame, width=500)
-  
-        
+    frame = imutils.resize(frame, width=500)  
         
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     gray = cv2.GaussianBlur(gray, (21, 21),0)
