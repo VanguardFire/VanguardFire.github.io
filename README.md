@@ -117,7 +117,7 @@
             #cv2.imshow("First Frame", firstFrame)
             key = cv2.waitKey(1) & 0xFF
 
-            # if the `q` key is pressed, break from the lop
+            # if the `q` key is pressed, break from the loop
             if key == ord("q"):
                 break
 
