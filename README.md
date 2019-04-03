@@ -8,7 +8,7 @@
 
 
 
-Our Code and Some Results:
+#Our Code and Some Results:
 
 
 from picamera.array import PiRGBArray
@@ -46,7 +46,7 @@ motionCounter = 0
 
 
 
-# capture frames from the camera
+#capture frames from the camera
 count = 0
 
 for f in camera.capture_continuous(rawCapture, format="bgr", use_video_port=True):
